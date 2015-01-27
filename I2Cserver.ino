@@ -16,7 +16,7 @@ int i=0;
 
 void setup() {
 	Serial.begin(9600);
-	Wire.begin(ADDR_SERVO);                //Nos unimos al bus I2C con la direccion dada
+	Wire.begin(ADDR_SERVER);                //Nos unimos al bus I2C con la direccion dada
 	Wire.onRequest(request);			   //Definimos la funcion que se ejecuta cuando el master pide los datos
 	inicializar_data();					   //Inicializamos el array de datos para comprobar que los datos de mandan correctamente
 }
