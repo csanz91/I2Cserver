@@ -21,11 +21,6 @@ void setup() {
 
 void loop() {
 
-<<<<<<< HEAD
-=======
-	inicializar_data(); //Prueba commit
-
->>>>>>> c4c2ef4cc7a82c163bbccbd874358495bac623de
 }
 
 
